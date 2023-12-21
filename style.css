@@ -1,0 +1,28 @@
+/** @format */
+
+.hover:hover {
+	background: #b4b2b2 !important;
+}
+.width{
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+    position: relative !important;
+    margin: auto;
+    border: 5px solid #3bff62b0;
+    align-items: center;
+    animation: animate 8s linear infinite;
+    box-shadow: 5px 5px 20px rgba(20, 255, 233, .5)  , -5px -5px 20px rgba(20, 255, 233, .7)  ;
+}
+.makeBig{
+    font-size: 3rem;
+}
+
+
+
+@keyframes animate {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
